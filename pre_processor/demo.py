@@ -4,5 +4,5 @@ class Demo(PreProcessor):
   def input_spec(self):
     return Param([Field('ymin', True)])
 
-  def do_pre_process(self, y, params):
-    print('do_process in demo preprocessor with %s' % y)
+  def do_pre_process(self, y, ymin, ymax):
+    print('do_process in demo preprocessor with ymin=%s, ymax=%s' % (ymin, ymax))

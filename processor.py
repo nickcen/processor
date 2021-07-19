@@ -30,7 +30,7 @@ class PreProcessor(ABC):
     exp = self.input_spec()
     exp.validate(params)
     exp.merge(params)
-    self.do_pre_process(y, params)
+    self.do_pre_process(y, **params)
   
   @abstractmethod
   def input_spec(self):
