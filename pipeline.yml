@@ -1,0 +1,9 @@
+---
+  pre_processors:
+    - name: demo
+      params:
+        ymin: 1
+        ymax: 2
+    - name: normalize_samples
+      params:
+        sr: 1
