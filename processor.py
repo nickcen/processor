@@ -37,6 +37,6 @@ class PreProcessor(ABC):
     pass
 
   @abstractmethod
-  def do_pre_process(self, y, params):
+  def do_pre_process(self, y):
     pass
 
